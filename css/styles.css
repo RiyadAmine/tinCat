@@ -1,0 +1,200 @@
+#title {
+    background-color: #ff4c68;
+}
+
+p {
+    color: #8f8f8f
+}
+
+h2 {
+    font-family: Montserrat;
+}
+
+h3 {
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+
+/* Navigation Bar */
+.fixed-top {
+    background-color: #ffffff;
+    padding: 0% 15% ;
+}
+a#navDetails{
+    color:#ff4c68
+}
+#headings{
+    margin-top: 100px;
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 76, 104, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.navbar-dark .navbar-toggler {
+    border-color: #ff4c68;
+    border-width: 1px;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-family: 'Montserrat-light';
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* Title Image */
+.title-image {
+    width: 15rem;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20rem;
+    top: 11rem;
+}
+
+@media (max-width: 1250px),
+(min-width:2300px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+/* Features */
+#features {
+    padding: 4% 16%;
+    /* white color to make sure the section is not transaprant */
+    background-color: #fff;
+    /* positioned relative so it can still in the html flow but it will allow the section to have a position an we can give it a z-index */
+    position: relative;
+    /* we can remove the z-index as the feautre section is below the title image therefor the stacking order will remain the same */
+    /* z-index: 1; */
+}
+
+.feature-box {
+    padding: 5%;
+    text-align: center;
+}
+
+.col-md {
+    margin: 3rem auto;
+}
+
+/* font-awesome */
+.font-awesome {
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.font-awesome :hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 7% 20%;
+}
+
+.testimonial-img {
+    width: 8%;
+    border-radius: 100%;
+    margin-top: 2%;
+}
+
+.press-logo {
+    width: 6%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+
+    padding: 7% 15%;
+}
+
+.card {
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Call to action */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.h3 {
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+/* Footer */
+#footer {
+    padding: 4% 15%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.icon-footer {
+    padding: 20px 10px;
+    /* font-size: 12px; */
+}
